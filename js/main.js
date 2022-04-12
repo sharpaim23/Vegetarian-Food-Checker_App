@@ -1,5 +1,3 @@
-// document.querySelector('button').addEventListener('click', getFetch)
-
 function getFetch(){
   let inputVal = document.getElementById('barcode').value
   const url = `https://world.openfoodfacts.org/api/v0/product/${inputVal}.json`
